@@ -81,7 +81,7 @@ class CategoryFilter extends DependentFilter
      *
      * @var string
      */
-    public $attribute = 'ctaegory_uid';
+    public $attribute = 'category_id';
     
     public function options(Request $request, array $filters = [])
     {
@@ -154,7 +154,7 @@ In class declaration you also need to set `$dpendentOf` property:
 ```php
 class CityFilter extends DependentFilter
 {
-    public $dpendentOf = ['state_id'];
+    public $dependentOf = ['state_id'];
     
     function options(Request $request, $filters = [])
     {
