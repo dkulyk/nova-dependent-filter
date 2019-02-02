@@ -35,7 +35,7 @@ function filters(Request $request)
         (new DependentFilter('State'))
             ->withOptions([
                 'all' => 'All orders',
-                'dragt' => 'Draft',
+                'draft' => 'Draft',
                 'outstanding' => 'Outstanding',
                 'past_due' => 'Past due',
                 'paid' => 'Paid',
