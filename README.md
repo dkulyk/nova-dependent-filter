@@ -1,3 +1,5 @@
+# Moved to [awesome-nova/dependent-filter](https://github.com/awesome-nova/dependent-filter)
+
 ## Nova Dependent Filter
 [![Latest Version on Github](https://img.shields.io/packagist/v/dkulyk/nova-dependent-filter.svg?style=flat)](https://packagist.org/packages/dkulyk/nova-dependent-filter)
 [![Total Downloads](https://img.shields.io/packagist/dt/dkulyk/nova-dependent-filter.svg?style=flat)](https://packagist.org/packages/dkulyk/nova-dependent-filter)
